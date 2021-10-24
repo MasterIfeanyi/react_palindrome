@@ -13,7 +13,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const string = word.toLowerCase()
+    const string = word.toLowerCase().split("").join("");
 
     //find the length of a string 
     const len = string.length;
