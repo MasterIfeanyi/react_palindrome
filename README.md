@@ -1,3 +1,6 @@
 ## Check out the website,
-#### click the link below
-https://musing-shirley-c5fe3a.netlify.app/
+
+Open [Ifeanyi-palindrome-app](https://ifeanyi-palindrome.netlify.app/) to view it in the browser.
+
+
+
