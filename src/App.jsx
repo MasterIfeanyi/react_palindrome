@@ -1,8 +1,7 @@
-import './App.css';
 import { useState } from 'react'
-
-import Input from './Input'
-import Header from './Header'
+import Input from './components/Input'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -13,6 +12,8 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if(!word) return
+
     const string = word.toLowerCase().split("").join("");
 
     //find the length of a string 
@@ -21,7 +22,7 @@ function App() {
     //loop through half of the string 
     for (let i = 0; i < len / 2; i++){
 
-      //check if first and last string are same
+      //check if current letter and last letter of the word are same
       if (string[i] !== string[len - 1 - i]) {
         
         console.log('Bad')
@@ -31,20 +32,17 @@ function App() {
     }
     
     console.log('Good')
-    setStop('a palindrome')
+    setStop('It is a palindrome')
     return
   }
 
 
   return (
-    <div className="App">
-      <Header/>
-      
-      <p style={{ color: "red" }}>{stop}</p>
-      
-      
-      <Input word={word} setWord={setWord} handleSubmit={handleSubmit} />
-  </div>
+    <main className="App">
+      <Header/>      
+      <Input word={word} stop={stop} setWord={setWord} handleSubmit={handleSubmit} />
+      <Footer />
+    </main>
   );
 }
 
