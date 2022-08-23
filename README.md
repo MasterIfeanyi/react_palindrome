@@ -1,6 +1,10 @@
 # Getting started
 
+<<<<<<< HEAD
 
+=======
+Chima Ifeanyi ThankGod
+>>>>>>> 38b3b3c9cf4dc7807156122b7913f55918bf77ac
 ## Description
 
 This is a simple project that allows a user to check if a word is a palindrome.
@@ -22,6 +26,7 @@ click the link below
 Open [Ifeanyi-palindrome-app](https://ifeanyi-palindrome.netlify.app/) to view it in the browser.
 
 
+<<<<<<< HEAD
 ## unit tests
 
 ### toBeInTheDocument()
@@ -87,3 +92,6 @@ userEvent.type(inputEl, "racecar");
 **source** 
 
 [how to use userEvent](https://javascript.plainenglish.io/simulate-browser-interactions-with-testing-librarys-userevent-cf8480d2606)
+=======
+
+>>>>>>> 38b3b3c9cf4dc7807156122b7913f55918bf77ac

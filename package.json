@@ -6,6 +6,7 @@
     "autoprefixer": "10.4.5"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -15,6 +16,17 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
+=======
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.1.3",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^1.1.2"
+>>>>>>> 38b3b3c9cf4dc7807156122b7913f55918bf77ac
   },
   "scripts": {
     "start": "react-scripts start",
