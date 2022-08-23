@@ -2,14 +2,6 @@ import {fireEvent, waitFor, screen, render } from "@testing-library/react"
 import userEvent from "@testing-library/user-event"
 import Input from "../components/Input"
 
-import { useState } from 'react';
-
-jest.mock('react', () => ({
-...jest.requireActual('react'),
-useState: jest.fn()
-}));
-
-const useStateMock = useState ;
 
 test("inputElement should be in the document", async () => {
 
